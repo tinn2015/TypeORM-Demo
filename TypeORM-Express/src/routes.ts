@@ -16,6 +16,11 @@ export const Routes = [{
     controller: StudentController,
     action: "save"
 }, {
+    method: "post",
+    route: "/students/cascade",
+    controller: StudentController,
+    action: "saveWidthCascade"
+}, {
     method: "delete",
     route: "/students/:id",
     controller: StudentController,
